@@ -138,3 +138,9 @@ Stock_id’si verilen stokla ilgili CRUD işlemleri gerçekleştirilecektir.
 - GET: ilgili stok bilgileri getirilecektir.
 - DELETE: ilgili stok form’dan kaldırılacaktır.
 - PUT: stokla ilgili bilgilerin düzenlemesi sağlanacaktır.
+# Zorunlu Gereksinimler
+- Veritabanı olarak MongoDB kullanılmalıdır.
+- Değişken isimleri ve var ise yorumlar tamamen ingilizce olarak yazılmalıdır
+- Kod stili olarak camelCase kullanılmalıdır
+- JWT için redis kullanmadan doğrulama yapılması ve şifre hariç kullanıcı bilgilerinin JWT datasından alınabilmeli
+- Zorunlu kütüphaneler hariç projenin temeli niteliğindeki özelliklerini yerine getirmek amacıyla üçüncü parti kütüphaneler kullanılmamalıdır. (Kullanılması eksi puan olarak sayılacaktır). İstisnalar REST API için fiber ve fiber eklentilerinin kullanımı üçüncü parti olarak sayılmayacaktır
