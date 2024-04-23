@@ -1,6 +1,6 @@
 
 # Dinamik Stok Yönetim Sistemi
-
+### Detaylara https://docs.google.com/document/d/1Mo0WAr6lbr67JPe43JEKbsdf36Q8Phih9_2DyCgt3sE/edit?usp=sharing adresinden ulaşabilirsiniz.
 Bu sistemde sizden istenilenler sırasıyla şu şekildedir:
 
 (bütün apiler `/api/v1` ile başlayacaktır.)
